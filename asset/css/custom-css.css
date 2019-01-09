@@ -1,0 +1,37 @@
+		.bg-greener, .main-top{background:#282828; color:#fff}
+		.navbar .navbar-light .navbar-toggler-icon {color: #fff !important;}
+		.navbar-light  .navbar-brand:hover,.navbar-light .navbar-nav .nav-link:hover {color: rgba(240, 236, 236, 0.58);}
+		.navbar-light .navbar-nav a.nav-link {color: white;font-family:'Lato Light';font-size:16px;    margin-left: 20px;}
+		.nav_menu a.navbar-brand {color: #ffffff;font-size:50px}
+		.dot_red, .nav_menu a.navbar-brand span.dot_red, .bg-greener, .main-top span.dot_red{color:#ff6131}
+		section{padding-bottom: 75px;}
+		.font-lato-light{font-family:'Lato Light'}
+		.font-lato-black{font-family:'Lato Black'}
+		.font-lato-hairline{font-family:'Lato Hairline';}
+		.text1{font-size:7.5rem; line-height: 1; margin-top:60px}
+		.text2{font-size:2.62rem;    white-space: nowrap;}
+		.text3{font-size:18px} 
+		.main-top-right-side  img{margin-top:10px;position:absolute; right:15px;}
+		.content-box{color:#4e4e4e;padding-top: 85px;}
+		.box-orange {height: 155px;background: #ff6131;width: 90%;;}
+		.box-orange i {    font-size: 65px;color: #fff; transform: translate(-50%, -50%);top: 50%;left: 43%;position: absolute;}
+		.content-box h4 {font-size: 18px;text-transform: uppercase;font-family: 'Lato Black';}
+		.content-box p{font-family: 'Lato Light'; font-size:14px;    width: 90%;}
+		.content-box p.section-top {font-size:42px;    width: 100%;    text-transform: uppercase;    margin-bottom: -10px;}
+		.content-box p.section-describe{font-size:18px}
+		.row.boxes {margin-top: 55px;}
+		@media (max-width:991px){
+		    .main-top-right-side img,.to-hide{display:none}
+			.boxes .col-lg-4 {margin-bottom: 25px;}
+			.row.boxes { margin-top: 0;}
+			.content-box p.section-describe {padding-bottom:55px}
+			.content-box{    margin-left: 15px;}
+	
+		} 
+		@media (max-width:446px){
+			.text1 {font-size: 20vw;}
+			.text2 {font-size: 6vw;}
+			.text3 {font-size: 3vw;}
+			.content-box p.section-top {font-size: 8vw;}
+			.content-box p.section-describe {font-size: 3.5vw;}
+		}
